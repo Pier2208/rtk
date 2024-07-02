@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Pierrick",
+      "password": "password123",
+      "token": "abcd1234"
+    }
+  ],
+  "todos": [
+    {
+      "title": "hello",
+      "completed": false,
+      "id": "d8c2b7ca-1d4b-4614-9611-f4673242fbfc"
+    }
+  ]
+}
