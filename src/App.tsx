@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import Login from './components/Login';
 import { useSelector } from 'react-redux';
 import { RootState } from './app/store';
-import TodoList from './components/TodoList';
+import AllTodoLists from './components/AllTodos/AllTodoLists';
 
 const App: React.FC = () => {
   const isAuthenticated = useSelector((state: RootState) => state.auth.isAuthenticated);
@@ -14,7 +14,7 @@ const App: React.FC = () => {
         <Route path="/login" element={<Login />} />
         <Route
           path="/todos"
-          element={isAuthenticated ? <TodoList /> : <Navigate to="/login" />}
+          element={isAuthenticated ? <AllTodoLists /> : <Navigate to="/login" />}
         />
         <Route path="*" element={<Navigate to="/todos" />} />
       </Routes>

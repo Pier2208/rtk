@@ -1,14 +1,12 @@
-// TodoItem.tsx
-import React from 'react';
-import { Todo } from '../types/Todo';
-import { useDeleteTodoMutation, useUpdateTodoMutation } from '../api/todoApi';
+import { Todo } from '../../types/Todo';
+import { useDeleteTodoMutation, useUpdateTodoMutation } from '../../api/todoApi';
 import styles from './TodoItem.module.css';
 
 interface TodoItemProps {
   todo: Todo;
 }
 
-const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
+const TodoItem = ({ todo }: TodoItemProps) => {
   const [updateTodo] = useUpdateTodoMutation();
   const [deleteTodo] = useDeleteTodoMutation();
 

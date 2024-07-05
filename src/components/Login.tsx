@@ -8,8 +8,8 @@ const Login: React.FC = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [login] = useLoginMutation();
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState('Pierrick');
+  const [password, setPassword] = useState('password123');
 
   const handleLogin = async () => {
     const data = await login({ username, password }).unwrap();

@@ -1,0 +1,12 @@
+.todos {
+  padding: 1rem;
+}
+
+.add-todo {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.add-todo > * {
+  margin-right: 1rem;
+}

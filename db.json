@@ -7,11 +7,38 @@
       "token": "abcd1234"
     }
   ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Sport"
+    },
+    {
+      "id": "2",
+      "name": "Cooking"
+    },
+    {
+      "id": "3",
+      "name": "Cleaning"
+    }
+  ],
   "todos": [
     {
-      "title": "hello",
+      "id": "a0c22f23-3b75-4ee3-9493-09a732850034",
+      "title": "Laver vaisselle",
+      "category": 3,
+      "completed": false
+    },
+    {
+      "title": "Marcher 10 minutes",
+      "category": 1,
       "completed": false,
-      "id": "d8c2b7ca-1d4b-4614-9611-f4673242fbfc"
+      "id": "d2ccab53-0d35-4576-9098-9029d9c5cf7c"
+    },
+    {
+      "title": "Faire un gâteau",
+      "category": 2,
+      "completed": true,
+      "id": "500820cf-13a5-40d3-a087-d9aba15ef104"
     }
   ]
 }

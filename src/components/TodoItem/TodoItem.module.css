@@ -2,6 +2,11 @@
   margin-bottom: 8px;
 }
 
+.todo-item  * {
+  margin-right: 0.5rem;
+}
+
+
 .completed {
   text-decoration: line-through;
   color: #888; /* Optional: Change color for completed items */
