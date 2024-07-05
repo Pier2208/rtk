@@ -37,7 +37,7 @@
     {
       "title": "Faire un gâteau",
       "category": 2,
-      "completed": true,
+      "completed": false,
       "id": "500820cf-13a5-40d3-a087-d9aba15ef104"
     }
   ]
