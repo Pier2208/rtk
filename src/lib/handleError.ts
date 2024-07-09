@@ -13,5 +13,5 @@ export const handleError = (err: FetchBaseQueryError | SerializedError | undefin
       return 'An unknown error occurred';
     }
   }
-  return null; // Return null if no error is provided
+  return null;
 };

@@ -18,7 +18,7 @@ const TodoItem = ({ todo }: TodoItemProps) => {
   };
 
   const handleDeleteClick = () => {
-    deleteTodo(todo.id);
+    deleteTodo(todo);
   };
 
   return (
